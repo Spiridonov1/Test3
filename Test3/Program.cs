@@ -26,7 +26,9 @@ namespace Test3
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			Console.WriteLine ("Введите своё имя");
+			char a = char.Parse (Console.ReadLine ());
+			Console.WriteLine ("Вас зовут {0}", a);
 		}
 	}
 }
