@@ -27,8 +27,10 @@ namespace Test3
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Введите своё имя");
-			char a = char.Parse (Console.ReadLine ());
-			Console.WriteLine ("Вас зовут {0}", a);
+			string a =Console.ReadLine();
+			Console.WriteLine ("Здравствуйте {0}", a);
+			Console.WriteLine ("Я ваш личный консольный помошник");
+			Console.WriteLine ("Выберете чем из предложенного я могу вам помочь");
 		}
 	}
 }
