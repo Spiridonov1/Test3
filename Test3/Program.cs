@@ -31,6 +31,11 @@ namespace Test3
 			Console.WriteLine ("Здравствуйте {0}", a);
 			Console.WriteLine ("Я ваш личный консольный помошник");
 			Console.WriteLine ("Выберете чем из предложенного я могу вам помочь");
+			Console.WriteLine ("----");
+			Console.WriteLine ("Поиск в итернете");
+			Console.WriteLine ("Калькулятор");
+			Console.WriteLine ("Игры");
+
 		}
 	}
 }
