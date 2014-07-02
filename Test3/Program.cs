@@ -27,14 +27,16 @@ namespace Test3
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Введите своё имя");
-			string a =Console.ReadLine();
+			string a = Console.ReadLine();
 			Console.WriteLine ("Здравствуйте {0}", a);
 			Console.WriteLine ("Я ваш личный консольный помошник");
-			Console.WriteLine ("Выберете чем из предложенного я могу вам помочь");
-			Console.WriteLine ("----");
-			Console.WriteLine ("Поиск в итернете");
-			Console.WriteLine ("Калькулятор");
-			Console.WriteLine ("Игры");
+			Console.WriteLine ("Выберете чем из предложенного я могу вам помочь:");
+			Console.WriteLine ("---");
+			Console.WriteLine ("1 Поиск в итернете");
+			Console.WriteLine ("2 Фотографии");
+			Console.WriteLine ("3 Музыка");
+			Console.WriteLine ("4 Видео");
+			Console.WriteLine ("5 Игры");
 
 		}
 	}
