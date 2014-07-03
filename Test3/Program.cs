@@ -37,6 +37,21 @@ namespace Test3
 			Console.WriteLine ("3 Музыка");
 			Console.WriteLine ("4 Видео");
 			Console.WriteLine ("5 Игры");
+			int x = int.Parse (Console.ReadLine ());
+			if (x == 1)
+				Console.WriteLine("Вывыбрали поиск в интернете ");
+			if (x == 2)
+				Console.WriteLine ("Вы выбрали категорию фотографии");
+			if(x==3)
+				Console.WriteLine ("Вы выбрали категорию музыка");
+			if(x==4)
+				Console.WriteLine ("Вы выбрали категорию видео");
+			if(x==5)
+				Console.WriteLine ("Вы выбрали категорию игры");
+			else
+			{
+				Console.WriteLine ("вы выбрали несуществующий пункт");
+			}
 
 		}
 	}
